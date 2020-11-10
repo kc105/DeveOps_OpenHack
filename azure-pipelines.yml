@@ -15,5 +15,8 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo Installing Maven
+    cd ./apis/user-java
+    mvn clean install
+    echo Maven Installed Success
   displayName: 'Run a multi-line script'
