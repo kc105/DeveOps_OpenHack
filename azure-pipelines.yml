@@ -19,4 +19,7 @@ steps:
     cd ./apis/user-java
     mvn clean install
     echo Maven Installed Success
-  displayName: 'Run a multi-line script'
+    echo Starting Maven Test 
+    nvn test
+    echo Maven Test Completed
+  displayName: 'Run a maven test'
